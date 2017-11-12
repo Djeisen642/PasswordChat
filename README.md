@@ -16,9 +16,9 @@ You are now logged into the password chat program. Type the command you would li
 
 The fully implemented version would possibly have the following features:
 * setup custom pass-dialog
-* securely stored passwords
+* securely stored passwords  
     It would use a database to store passwords encrypted at rest.
-* real create account functionality
+* real create account functionality  
     Account information would be stored.
 * delete account functionality
 * intelligent passphrase generator based on your interests
