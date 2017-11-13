@@ -1,8 +1,8 @@
 ---
 declared-services:
-  my-conversation-service:
+  PasswordChat:
     label: conversation
-    plan: free
+    plan: lite
 applications:
 - name: conversation-simple
   command: npm start
@@ -10,6 +10,6 @@ applications:
   memory: 256M
   instances: 1
   services:
-  - my-conversation-service
+  - PasswordChat
   env:
     NPM_CONFIG_PRODUCTION: false
